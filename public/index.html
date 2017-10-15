@@ -1,0 +1,16 @@
+<html>
+    <head>
+        <title>mi app websocket</title>
+        <script src="/socket.io/socket.io.js"></script>
+        <script src="/main.js"></script>
+    </head>
+    <body>
+        <h1>WebSocket App</h1>
+        <div id="messages"></div>
+        <form onsubmit="return addMessage(this)">
+            <input type="text" id="username" placeholder="nombre"> 
+            <input type="text" id="texto" placeholder="comentario"> 
+            <input type="submit" value="Enviar"> 
+        </form>
+    </body>
+</html>
